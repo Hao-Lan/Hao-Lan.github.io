@@ -26,15 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  lanhao945
-
+words_per_minute: 200
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
-paginate: 8
+paginate: 10
 show_excerpts: true
-minima:
-  skin: auto
 author: lanhao
 # Exclude from processing.
 # The following items will not be processed, by default.

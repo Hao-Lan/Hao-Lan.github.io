@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "如何为深度学习准备GPU 环境?"
 date:   2022-11-02 20:32:00 +0800
 ---
