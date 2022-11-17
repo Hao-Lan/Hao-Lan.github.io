@@ -79,7 +79,7 @@ import tensorflow as tf
 
 **Why?** 输出环境变量看看明白了
 
-## 相关检索
+相关检索
 
 - [动态库和静态库](https://cn.bing.com/search?q=%E5%8A%A8%E6%80%81%E5%BA%93+%E9%9D%99%E6%80%81%E5%BA%93&qs=n&form=QBRE&sp=-1&pq=%E5%8A%A8%E6%80%81%E5%BA%93+j&sc=10-5&sk=&cvid=E18652CF2D6A4CFEB9991C78556CA726&ghsh=0&ghacc=0&ghpl=)
 - [cuda安装](https://cn.bing.com/search?q=cuda%E5%AE%89%E8%A3%85&cvid=d6b2f51b1e1e4021822b8a83a1ae00f4&aqs=edge..69i57j0l8.262j0j1&FORM=ANAB01&PC=U531)
