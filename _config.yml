@@ -31,6 +31,7 @@ words_per_minute: 200
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 paginate: 10
 show_excerpts: true
 author: lanhao
