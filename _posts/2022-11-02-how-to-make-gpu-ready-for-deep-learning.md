@@ -2,6 +2,8 @@
 layout: single
 title:  "如何为深度学习准备GPU 环境?"
 date:   2022-11-02 20:32:00 +0800
+author: lanhao
+
 ---
 
 理解,在有N卡的前提下,如何使`tensorflow` 或者 `pytorch` 利用GPU 做加速.

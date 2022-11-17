@@ -23,16 +23,30 @@ title: No,Thanks
 description: >- # this means to ignore newlines until "baseurl:"
   Share something interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lanhao945.github.io/"
 github_username:  lanhao945
 paginate: 10
 author: lanhao
 # Build settings
+repository: "lanhao945/lanhao945.github.io"
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+locale: "zh"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+words_per_minute: 50
+search: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      author_profile: true
+      toc: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
