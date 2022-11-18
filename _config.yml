@@ -74,7 +74,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      show_time: true
+      show_date: true
       comments: false
       related: true
       toc: true
