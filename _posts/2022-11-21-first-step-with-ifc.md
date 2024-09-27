@@ -1,21 +1,13 @@
 ---
-layout: single
-title:  "迈向 IFC 的第一步"
-date:   2022-11-21 10:50:00 +0800
-author: lanhao
-header:
-  overlay_image: /assets/img/ifc/ifcopenshellacademy.png
-
-tags:
-
-- IFC
-- ifcopenshell
-
+layout: post
+title: "IFC First Example"
+date: 2022-11-21 10:50:00 +0800
+categories: [ IFCOpenshell,python,memo]
 ---
 
-解读IFCOpenshellAcademy 中[示例][IFC First Example].
+解读 IFCOpenshellAcademy 中[IFC First Example][IFC First Example].
 
-### `ifcfile.createIfcXXX` 调用说明来自于哪里？
+## `ifcfile.createIfcXXX` 调用说明来自于哪里？
 
 ifcopenshell提供两种创建 IFC 对象的写法,分别为`createXXX`调用和`create(xxxx,*args,**kwargs)`.
 
@@ -32,7 +24,7 @@ axis2placement = ifcfile.create("IfcAxis2Placement3D", point, dir1, dir2)
   - `?`表示可为空,`[:]`表示传入列表对象,列表元素为表内表述.
   - 调用创建函数,需要按它列出来的序传入,空,请传`None`对象.
 
-### `template` 内部是一个IFC 模板文件,如何从零生成IFC 文件?
+## `template` 内部是一个IFC 模板文件,如何从零生成IFC 文件?
 
 创建IFC 文件相对简单:
 ```python
@@ -43,18 +35,18 @@ ifcfile = IfcFile()
 
 所以用模板也是一种方法,按需选择即可.
 
-### 为何`product_shape`中,包含了一个几何体,又包含了一个`axis_representation`?
+## 为何`product_shape`中,包含了一个几何体,又包含了一个`axis_representation`?
 
 更多是使用方法,IFC中无定义.对比功能可以参见Revit 结构梁柱中的那条细线.
 
 
 
-### 从本处可以延伸出的开洞两种形式?
+## 从本处可以延伸出的开洞两种形式?
 
 - 第一种,在创建墙的Solid时,就通过几何体布尔运算开洞.
 - 第二种,如上述,完整创建墙(主体)后,再在墙上创建`IfcOpeningElement`开洞.
 
-#### 两种开洞区别?
+## 两种开洞区别?
 
 - `IfcOpeningElement`可以更容易保留开洞信息,易于提取开洞数据.前者更适合用于不规则复杂表示.
 - 如果多个主体(墙)想复用一个局部shape,那么开洞方式需要酌情考虑.

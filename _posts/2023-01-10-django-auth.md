@@ -1,14 +1,8 @@
 ---
-layout: single
-title:  "Django 授权和 rest-framework 验证"
-date:   2023-01-10 15:36:00 +0800
-author: lanhao
-
-tags:
-
-- django
-- djangorestframework
-
+layout: post
+title: "Django 授权、rest-framework 验证"
+date: 2023-01-10 15:36:00 +0800
+categories: [ Django,python,memo ]
 ---
 
 #### backends
@@ -38,7 +32,6 @@ restframework 的 authentication,应该处于校验.
 这里的配置就用于判断:此时的已登录用户或者匿名用户,是否有权限继续访问.
 
 所以这里的配置,比较粗,包括: 不需要登录,需要登录,管理员用户,管理员或者只允许读等(django 自身的permission).
-
 
 #### 回顾
 

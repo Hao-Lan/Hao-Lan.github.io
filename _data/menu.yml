@@ -1,0 +1,30 @@
+entries:
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+  - title: 猎奇
+    post_list:
+      category: amazing
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: amazing.html
+  - title: 备忘录
+    post_list:
+      category: memo
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: memo.html
+#  - title: 大类
+#    entries:
+#      - title: python
+#        post_list:
+#          category: python
+#          limit: 5
+#          show_more: true
+#          show_more_text: See archive...
+#          show_more_url: python.html
