@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: lanhao945
 favicon: "logo.jpg"
 # Build settings
-theme: no-style-please
+#theme: no-style-please
 remote_theme: "riggraz/no-style-please"
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
