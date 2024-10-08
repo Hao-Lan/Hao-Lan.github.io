@@ -1,5 +1,5 @@
 entries:
-  - title: all posts
+  - title: 近期
     post_list:
       limit: 5
       show_more: true
